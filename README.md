@@ -33,3 +33,4 @@ requests
 datetime  
 pandas  
 sqlite3  
+plotly.express
