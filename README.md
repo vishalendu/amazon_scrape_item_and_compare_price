@@ -9,7 +9,8 @@ sample search is for iphone+model example iphone+12
 since I could not find a unique identifier for the item(sku) and price data. I have to again search for a keyword inside the values returned.  
   
 ``` if(sku.text.find('Apple')==0):```  
-this like is additional search in the results of find operation. Its important to note that the results can change based on the css class, in case it is changed by Amazon.  
+this is the additional search in the results of find operation.   
+Note: Its important to note that the results can change based on the css class, in case it is changed by Amazon.  
   
 This script also creates/updates a sqlite db with the data from the query. Sample SQLite_amazon.db is attached.  
   
