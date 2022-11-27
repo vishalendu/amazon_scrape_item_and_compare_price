@@ -23,3 +23,12 @@ This file has functions to create and update the sqlite table.
 #analyse_data.ipynb  
 -------------------  
 This is a sample jupyter script to compare the data returned.  
+  
+  
+Python Packages used:  
+~~~~~~~~~~~~~~~~~~~~~  
+BeautifulSoup4  
+requests  
+datetime  
+pandas  
+sqlite3  
