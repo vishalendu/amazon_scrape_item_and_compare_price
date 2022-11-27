@@ -5,7 +5,7 @@ Python scripts to scrape an item price from Amazon.in and analyse price trend
 #scraper.py  
 -----------  
 uses beautifulsoap to get item and price information after searching amazon.in, (only the first result page)  
-sample search is for iphone+<model> example iphone+12  
+sample search is for iphone+model example iphone+12  
 since I could not find a unique identifier for the item(sku) and price data. I have to again search for a keyword inside the values returned.  
   
 ``` if(sku.text.find('Apple')==0):```  
